@@ -1,0 +1,21 @@
+warning_id,filename,cell_name,cycle_index,risk_score,risk_level,confidence,uncertainty_flag,top_factor_1,status_1,top_factor_2,status_2,recommended_action
+1,warning_001_low.json,B0005,5,0.0530664906602103,LOW,HIGH,False,duration,WARNING,re,NORMAL,Continue normal operation. Monitor battery parameters.
+2,warning_002_low.json,B0005,9,0.0553227382803211,LOW,HIGH,False,re,NORMAL,duration,NORMAL,Continue normal operation. Monitor battery parameters.
+3,warning_003_low.json,B0005,13,0.0675337543565885,LOW,HIGH,False,re,NORMAL,impedance_rise_pct,NORMAL,Continue normal operation. Monitor battery parameters.
+4,warning_004_low.json,B0005,17,0.0779907943433347,LOW,HIGH,False,re,NORMAL,impedance_rise_pct,NORMAL,Continue normal operation. Monitor battery parameters.
+5,warning_005_low.json,B0005,21,0.037171863875731,LOW,HIGH,False,duration,NORMAL,re,NORMAL,Continue normal operation. Monitor battery parameters.
+6,warning_006_low.json,B0005,6,0.0449458307812131,LOW,HIGH,False,duration,WARNING,re,NORMAL,Continue normal operation. Monitor battery parameters.
+7,warning_007_low.json,B0005,7,0.0539253480929971,LOW,HIGH,False,duration,WARNING,re,NORMAL,Continue normal operation. Monitor battery parameters.
+8,warning_008_low.json,B0005,8,0.0542089903728284,LOW,HIGH,False,duration,NORMAL,re,NORMAL,Continue normal operation. Monitor battery parameters.
+9,warning_009_low.json,B0005,10,0.0555000167619689,LOW,HIGH,False,re,NORMAL,duration,NORMAL,Continue normal operation. Monitor battery parameters.
+10,warning_010_low.json,B0005,11,0.0646735149823715,LOW,HIGH,False,re,NORMAL,duration,NORMAL,Continue normal operation. Monitor battery parameters.
+11,warning_011_low.json,B0005,12,0.0728143096644634,LOW,HIGH,False,re,NORMAL,impedance_rise_pct,NORMAL,Continue normal operation. Monitor battery parameters.
+12,warning_012_low.json,B0005,14,0.0674963632706802,LOW,HIGH,False,re,NORMAL,impedance_rise_pct,NORMAL,Continue normal operation. Monitor battery parameters.
+13,warning_013_low.json,B0005,15,0.0786638197461693,LOW,HIGH,False,re,NORMAL,temp_max,NORMAL,Continue normal operation. Monitor battery parameters.
+14,warning_014_low.json,B0005,16,0.0777744847640066,LOW,HIGH,False,temp_max,NORMAL,re,NORMAL,Continue normal operation. Monitor battery parameters.
+15,warning_015_low.json,B0005,18,0.096769734096984,LOW,HIGH,False,re,NORMAL,impedance_rise_pct,NORMAL,Continue normal operation. Monitor battery parameters.
+16,warning_016_low.json,B0005,19,0.1191412809266885,LOW,HIGH,False,re,NORMAL,impedance_rise_pct,NORMAL,Continue normal operation. Monitor battery parameters.
+17,warning_017_low.json,B0005,20,0.0421762815593038,LOW,HIGH,False,duration,NORMAL,impedance_rise_pct,NORMAL,Continue normal operation. Monitor battery parameters.
+18,warning_018_low.json,B0005,22,0.0439419843670374,LOW,HIGH,False,re,NORMAL,impedance_rise_pct,NORMAL,Continue normal operation. Monitor battery parameters.
+19,warning_019_low.json,B0005,23,0.0692350207272654,LOW,HIGH,False,re,NORMAL,temp_max,NORMAL,Continue normal operation. Monitor battery parameters.
+20,warning_020_low.json,B0005,24,0.0674299179623512,LOW,HIGH,False,temp_change_rate,NORMAL,temp_max,NORMAL,Continue normal operation. Monitor battery parameters.

@@ -1,0 +1,6 @@
+,B0005,B0006,B0007,B0018
+Rank 1,temp_max,temp_max,impedance_rise_pct,duration
+Rank 2,temp_mean,temp_mean,temp_max,temp_max
+Rank 3,impedance_rise_pct,impedance_rise_pct,re,temp_change_rate
+Rank 4,duration,rct,voltage_trend,temp_mean
+Rank 5,rct,soc_estimated,rct,soc_estimated

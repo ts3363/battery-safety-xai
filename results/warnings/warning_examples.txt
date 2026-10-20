@@ -1,0 +1,499 @@
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.053]
+Cell: B0005 | Cycle: 5 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by duration (3629.17 s) and re (0.04 Ω). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. duration (Discharge duration)
+     Value: 3629.172 s | Status: WARNING | SHAP Impact: -1.6120
+  2. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. temp_max (Maximum temperature during discharge)
+     Value: 38.665 °C | Status: NORMAL | SHAP Impact: -0.8422
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.055]
+Cell: B0005 | Cycle: 9 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and duration (3550.59 s). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  2. duration (Discharge duration)
+     Value: 3550.594 s | Status: NORMAL | SHAP Impact: -1.3496
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. temp_max (Maximum temperature during discharge)
+     Value: 38.526 °C | Status: NORMAL | SHAP Impact: -1.0086
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.068]
+Cell: B0005 | Cycle: 13 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and impedance_rise_pct (0.00 %). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  2. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  3. duration (Discharge duration)
+     Value: 3470.281 s | Status: NORMAL | SHAP Impact: -1.0813
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. temp_max (Maximum temperature during discharge)
+     Value: 38.582 °C | Status: NORMAL | SHAP Impact: -0.9414
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.078]
+Cell: B0005 | Cycle: 17 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and impedance_rise_pct (0.00 %). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  2. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  3. temp_max (Maximum temperature during discharge)
+     Value: 38.319 °C | Status: NORMAL | SHAP Impact: -1.2562
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. duration (Discharge duration)
+     Value: 3409.484 s | Status: NORMAL | SHAP Impact: -0.8783
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.037]
+Cell: B0005 | Cycle: 21 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by duration (3552.30 s) and re (0.05 Ω). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. duration (Discharge duration)
+     Value: 3552.297 s | Status: NORMAL | SHAP Impact: -1.3553
+  2. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3398
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: -0.434 % | Status: NORMAL | SHAP Impact: -1.3083
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.1616
+  5. temp_change_rate (Rate of temperature change)
+     Value: 0.171 °C/cycle | Status: NORMAL | SHAP Impact: -0.9791
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.045]
+Cell: B0005 | Cycle: 6 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by duration (3652.28 s) and re (0.04 Ω). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. duration (Discharge duration)
+     Value: 3652.281 s | Status: WARNING | SHAP Impact: -1.6892
+  2. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. soc_estimated (Estimated state of charge)
+     Value: 98.878 % | Status: NORMAL | SHAP Impact: -0.7916
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.054]
+Cell: B0005 | Cycle: 7 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by duration (3650.83 s) and re (0.04 Ω). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. duration (Discharge duration)
+     Value: 3650.828 s | Status: WARNING | SHAP Impact: -1.6844
+  2. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. soc_estimated (Estimated state of charge)
+     Value: 98.850 % | Status: NORMAL | SHAP Impact: -0.7901
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.054]
+Cell: B0005 | Cycle: 8 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by duration (3572.45 s) and re (0.04 Ω). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. duration (Discharge duration)
+     Value: 3572.453 s | Status: NORMAL | SHAP Impact: -1.4226
+  2. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. temp_max (Maximum temperature during discharge)
+     Value: 38.517 °C | Status: NORMAL | SHAP Impact: -1.0195
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.056]
+Cell: B0005 | Cycle: 10 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and duration (3551.25 s). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  2. duration (Discharge duration)
+     Value: 3551.250 s | Status: NORMAL | SHAP Impact: -1.3518
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. temp_max (Maximum temperature during discharge)
+     Value: 38.527 °C | Status: NORMAL | SHAP Impact: -1.0077
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.065]
+Cell: B0005 | Cycle: 11 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and duration (3530.25 s). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  2. duration (Discharge duration)
+     Value: 3530.250 s | Status: NORMAL | SHAP Impact: -1.2816
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. temp_max (Maximum temperature during discharge)
+     Value: 38.541 °C | Status: NORMAL | SHAP Impact: -0.9905
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.073]
+Cell: B0005 | Cycle: 12 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and impedance_rise_pct (0.00 %). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  2. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  3. duration (Discharge duration)
+     Value: 3491.016 s | Status: NORMAL | SHAP Impact: -1.1506
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. temp_max (Maximum temperature during discharge)
+     Value: 38.522 °C | Status: NORMAL | SHAP Impact: -1.0137
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.067]
+Cell: B0005 | Cycle: 14 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and impedance_rise_pct (0.00 %). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  2. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  3. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  4. duration (Discharge duration)
+     Value: 3470.000 s | Status: NORMAL | SHAP Impact: -1.0804
+  5. temp_max (Maximum temperature during discharge)
+     Value: 38.520 °C | Status: NORMAL | SHAP Impact: -1.0157
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.079]
+Cell: B0005 | Cycle: 15 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and temp_max (38.21 °C). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  2. temp_max (Maximum temperature during discharge)
+     Value: 38.214 °C | Status: NORMAL | SHAP Impact: -1.3826
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. duration (Discharge duration)
+     Value: 3450.297 s | Status: NORMAL | SHAP Impact: -1.0146
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.078]
+Cell: B0005 | Cycle: 16 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by temp_max (38.20 °C) and re (0.04 Ω). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. temp_max (Maximum temperature during discharge)
+     Value: 38.198 °C | Status: NORMAL | SHAP Impact: -1.4008
+  2. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  4. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  5. duration (Discharge duration)
+     Value: 3429.407 s | Status: NORMAL | SHAP Impact: -0.9448
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.097]
+Cell: B0005 | Cycle: 18 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and impedance_rise_pct (0.00 %). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  2. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  3. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  4. temp_max (Maximum temperature during discharge)
+     Value: 38.479 °C | Status: NORMAL | SHAP Impact: -1.0654
+  5. duration (Discharge duration)
+     Value: 3390.422 s | Status: NORMAL | SHAP Impact: -0.8146
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.119]
+Cell: B0005 | Cycle: 19 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and impedance_rise_pct (0.00 %). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3842
+  2. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 0.000 % | Status: NORMAL | SHAP Impact: -1.2681
+  3. rct (Charge transfer resistance)
+     Value: 0.069 Ω | Status: WARNING | SHAP Impact: -1.0810
+  4. temp_max (Maximum temperature during discharge)
+     Value: 38.547 °C | Status: NORMAL | SHAP Impact: -0.9843
+  5. duration (Discharge duration)
+     Value: 3390.281 s | Status: NORMAL | SHAP Impact: -0.8141
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.042]
+Cell: B0005 | Cycle: 20 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by duration (3591.73 s) and impedance_rise_pct (-1.15 %). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. duration (Discharge duration)
+     Value: 3591.734 s | Status: NORMAL | SHAP Impact: -1.4870
+  2. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: -1.147 % | Status: NORMAL | SHAP Impact: -1.3744
+  3. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3663
+  4. rct (Charge transfer resistance)
+     Value: 0.068 Ω | Status: WARNING | SHAP Impact: -1.2099
+  5. temp_max (Maximum temperature during discharge)
+     Value: 38.447 °C | Status: NORMAL | SHAP Impact: -1.1028
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.044]
+Cell: B0005 | Cycle: 22 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and impedance_rise_pct (-1.67 %). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.044 Ω | Status: NORMAL | SHAP Impact: -1.4351
+  2. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: -1.672 % | Status: NORMAL | SHAP Impact: -1.4229
+  3. duration (Discharge duration)
+     Value: 3531.578 s | Status: NORMAL | SHAP Impact: -1.2861
+  4. rct (Charge transfer resistance)
+     Value: 0.068 Ω | Status: WARNING | SHAP Impact: -1.2036
+  5. temp_max (Maximum temperature during discharge)
+     Value: 38.514 °C | Status: NORMAL | SHAP Impact: -1.0230
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.069]
+Cell: B0005 | Cycle: 23 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by re (0.04 Ω) and temp_max (38.17 °C). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. re (Electrolyte resistance)
+     Value: 0.044 Ω | Status: NORMAL | SHAP Impact: -1.4747
+  2. temp_max (Maximum temperature during discharge)
+     Value: 38.166 °C | Status: NORMAL | SHAP Impact: -1.4397
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: -1.654 % | Status: NORMAL | SHAP Impact: -1.4213
+  4. rct (Charge transfer resistance)
+     Value: 0.068 Ω | Status: WARNING | SHAP Impact: -1.1684
+  5. duration (Discharge duration)
+     Value: 3492.907 s | Status: NORMAL | SHAP Impact: -1.1569
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.067]
+Cell: B0005 | Cycle: 24 | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by temp_change_rate (-0.28 °C/cycle) and temp_max (38.17 °C). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. temp_change_rate (Rate of temperature change)
+     Value: -0.276 °C/cycle | Status: NORMAL | SHAP Impact: +1.7474
+  2. temp_max (Maximum temperature during discharge)
+     Value: 38.165 °C | Status: NORMAL | SHAP Impact: -1.4404
+  3. re (Electrolyte resistance)
+     Value: 0.045 Ω | Status: NORMAL | SHAP Impact: -1.3872
+  4. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: -1.003 % | Status: NORMAL | SHAP Impact: -1.3610
+  5. duration (Discharge duration)
+     Value: 3511.594 s | Status: NORMAL | SHAP Impact: -1.2193
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================

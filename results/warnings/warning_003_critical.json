@@ -1,0 +1,62 @@
+{
+  "risk_level": "CRITICAL",
+  "risk_score": 0.9999750041380687,
+  "confidence": "HIGH",
+  "uncertainty_flag": false,
+  "uncertainty_info": {
+    "confidence": "HIGH",
+    "model_agreement": 1.0
+  },
+  "contributing_factors": [
+    {
+      "feature": "temp_mean",
+      "shap_contribution": 0.10210854188612678,
+      "rank": 1,
+      "actual_value": 34.23744800906639,
+      "unit": "\u00b0C",
+      "status": "NORMAL",
+      "description": "Mean temperature during discharge"
+    },
+    {
+      "feature": "temp_max",
+      "shap_contribution": 0.09447069315401783,
+      "rank": 2,
+      "actual_value": 41.61679232360952,
+      "unit": "\u00b0C",
+      "status": "WARNING",
+      "description": "Maximum temperature during discharge"
+    },
+    {
+      "feature": "re",
+      "shap_contribution": 0.08391073921227703,
+      "rank": 3,
+      "actual_value": 0.075132937700244,
+      "unit": "\u03a9",
+      "status": "WARNING",
+      "description": "Electrolyte resistance"
+    },
+    {
+      "feature": "impedance_rise_pct",
+      "shap_contribution": 0.05911456531955077,
+      "rank": 4,
+      "actual_value": 25.214065341361703,
+      "unit": "%",
+      "status": "NORMAL",
+      "description": "Impedance rise percentage from initial"
+    },
+    {
+      "feature": "duration",
+      "shap_contribution": 0.04855545206220805,
+      "rank": 5,
+      "actual_value": 2946.031,
+      "unit": "s",
+      "status": "NORMAL",
+      "description": "Discharge duration"
+    }
+  ],
+  "interpretable_message": "Critical battery risk detected. The prediction is primarily driven by temp_mean (34.24 \u00b0C) and temp_max (41.62 \u00b0C). Recommended action: Immediately reduce load. Initiate emergency inspection per safety protocol. Do not continue charging if safety limits are exceeded.",
+  "recommended_action": "Immediately reduce load. Initiate emergency inspection per safety protocol. Do not continue charging if safety limits are exceeded.",
+  "cell_name": "B0006",
+  "cycle_count": 120,
+  "case_id": "HIGH_279"
+}

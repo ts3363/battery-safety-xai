@@ -1,0 +1,10 @@
+metric,value
+factor_correctness,1.0
+warning_consistency,0.5055112479206504
+risk_level_distribution,"{'counts': {'LOW': 194, 'MEDIUM': 190, 'HIGH': 236, 'CRITICAL': 0}, 'proportions': {'LOW': 0.31290322580645163, 'MEDIUM': 0.3064516129032258, 'HIGH': 0.38064516129032255, 'CRITICAL': 0.0}}"
+count_high,236
+fraction_high,0.38064516129032255
+count_low,194
+fraction_low,0.31290322580645163
+count_medium,190
+fraction_medium,0.3064516129032258

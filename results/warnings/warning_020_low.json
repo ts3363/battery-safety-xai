@@ -1,0 +1,68 @@
+{
+  "risk_level": "LOW",
+  "risk_score": 0.0674299179623512,
+  "confidence": "HIGH",
+  "uncertainty_flag": false,
+  "uncertainty_info": {
+    "model_agreement": 1.0,
+    "confidence": "HIGH",
+    "predictions": {
+      "logistic_regression": 0,
+      "decision_tree": 0,
+      "random_forest": 0,
+      "xgboost": 0
+    }
+  },
+  "contributing_factors": [
+    {
+      "feature": "temp_change_rate",
+      "shap_contribution": 1.7474113856066016,
+      "rank": 1,
+      "actual_value": -0.2756712519483812,
+      "unit": "\u00b0C/cycle",
+      "status": "NORMAL",
+      "description": "Rate of temperature change"
+    },
+    {
+      "feature": "temp_max",
+      "shap_contribution": -1.440373266505774,
+      "rank": 2,
+      "actual_value": 38.16526203587147,
+      "unit": "\u00b0C",
+      "status": "NORMAL",
+      "description": "Maximum temperature during discharge"
+    },
+    {
+      "feature": "re",
+      "shap_contribution": -1.3872087525457246,
+      "rank": 3,
+      "actual_value": 0.0446393219887852,
+      "unit": "\u03a9",
+      "status": "NORMAL",
+      "description": "Electrolyte resistance"
+    },
+    {
+      "feature": "impedance_rise_pct",
+      "shap_contribution": -1.3609953974446136,
+      "rank": 4,
+      "actual_value": -1.002970704213433,
+      "unit": "%",
+      "status": "NORMAL",
+      "description": "Impedance rise percentage from initial"
+    },
+    {
+      "feature": "duration",
+      "shap_contribution": -1.2193140386136256,
+      "rank": 5,
+      "actual_value": 3511.594,
+      "unit": "s",
+      "status": "NORMAL",
+      "description": "Discharge duration"
+    }
+  ],
+  "interpretable_message": "Low battery risk detected. The prediction is primarily driven by temp_change_rate (-0.28 \u00b0C/cycle) and temp_max (38.17 \u00b0C). Recommended action: Continue normal operation. Monitor battery parameters.",
+  "recommended_action": "Continue normal operation. Monitor battery parameters.",
+  "row_index": 19,
+  "cell_name": "B0005",
+  "cycle_index": 24
+}

@@ -1,0 +1,4 @@
+risk_level,case_index,cell_name,cycle_count,predicted_prob,shap_top_k,lime_top_k,overlap_count,rank_correlation
+LOW,364,B0007,41,0.0,"['temp_max', 'impedance_rise_pct', 'duration', 'temp_mean', 'capacity']","['temp_max', 'impedance_rise_pct', 'temp_mean', 'duration', 'capacity_fade_pct']",4,0.8857142857142858
+MEDIUM,231,B0006,72,0.5772,"['temp_max', 'duration', 'impedance_rise_pct', 'temp_mean', 'rct']","['re', 'soc_estimated', 'capacity_fade_pct', 'rct', 'temp_mean']",2,-0.95
+HIGH,279,B0006,120,1.0,"['temp_mean', 'temp_max', 're', 'impedance_rise_pct', 'duration']","['temp_max', 'impedance_rise_pct', 're', 'temp_mean', 'capacity_fade_pct']",4,0.5428571428571429

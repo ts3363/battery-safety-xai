@@ -1,0 +1,8 @@
+Capability / Dimension,Static Thresholding,Prediction-Only Model,Full XAI Warning Framework
+Predictive Risk Output,Binary (Pass / Fail),"Scalar Risk Probability [0, 1]",Calibrated Risk Score + Categorical Severity (LOW..CRITICAL)
+Root-Cause Attribution,Only single violating variable,None (Black-box scalar),Ranked SHAP physical drivers with measured values & units
+Actionability & Guidance,None / Generic stop,None (Requires human guesswork),Domain-specific engineering mitigation actions per factor
+Multi-Factor Interaction,Ignored (Strict univariate cuts),Captured internally but unexpressed,Captured and explicitly highlighted in warning synthesis
+Temporal Trend Awareness,Blind to rates of change,Implicit if features provided,"Explicit trend features (temp rise rate, fade slope) flagged"
+Confidence / Uncertainty,Deterministic / False certainty,Uncalibrated margins,Explicit uncertainty metric based on decision boundary distance
+Sub-threshold Early Warning,0% (Cannot detect early fade),11.5% detected (unexplained),11.5% detected with explicit physical justification

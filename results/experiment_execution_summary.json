@@ -1,0 +1,36 @@
+{
+    "execution_timestamp": "2026-10-20 20:50:10",
+    "total_runtime_seconds": 17.3,
+    "experiments": {
+        "E1": {
+            "name": "Predictive Model Comparison (LOBO-CV)",
+            "status": "SUCCESS",
+            "time_sec": 5.84
+        },
+        "E2": {
+            "name": "Raw vs. Trend-Aware Feature Importance",
+            "status": "SUCCESS",
+            "time_sec": 6.33
+        },
+        "E3": {
+            "name": "Local Explanations (SHAP + LIME) and Warnings",
+            "status": "SUCCESS",
+            "time_sec": 1.32
+        },
+        "E4": {
+            "name": "Cross-Battery Explanation Stability (LOBO-CV)",
+            "status": "SUCCESS",
+            "time_sec": 0.29
+        },
+        "E5": {
+            "name": "Safety Warning Quality Evaluation",
+            "status": "SUCCESS",
+            "time_sec": 0.53
+        },
+        "E6": {
+            "name": "Full XAI Framework vs. Prediction-Only Baseline",
+            "status": "SUCCESS",
+            "time_sec": 0.3
+        }
+    }
+}

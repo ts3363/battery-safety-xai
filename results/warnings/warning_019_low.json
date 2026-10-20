@@ -1,0 +1,68 @@
+{
+  "risk_level": "LOW",
+  "risk_score": 0.0692350207272654,
+  "confidence": "HIGH",
+  "uncertainty_flag": false,
+  "uncertainty_info": {
+    "model_agreement": 1.0,
+    "confidence": "HIGH",
+    "predictions": {
+      "logistic_regression": 0,
+      "decision_tree": 0,
+      "random_forest": 0,
+      "xgboost": 0
+    }
+  },
+  "contributing_factors": [
+    {
+      "feature": "re",
+      "shap_contribution": -1.4746730010045483,
+      "rank": 1,
+      "actual_value": 0.0437866281960759,
+      "unit": "\u03a9",
+      "status": "NORMAL",
+      "description": "Electrolyte resistance"
+    },
+    {
+      "feature": "temp_max",
+      "shap_contribution": -1.4397105221489737,
+      "rank": 2,
+      "actual_value": 38.165816144899125,
+      "unit": "\u00b0C",
+      "status": "NORMAL",
+      "description": "Maximum temperature during discharge"
+    },
+    {
+      "feature": "impedance_rise_pct",
+      "shap_contribution": -1.4213025828719872,
+      "rank": 3,
+      "actual_value": -1.654443272392946,
+      "unit": "%",
+      "status": "NORMAL",
+      "description": "Impedance rise percentage from initial"
+    },
+    {
+      "feature": "rct",
+      "shap_contribution": -1.168387156829198,
+      "rank": 4,
+      "actual_value": 0.0684502122707276,
+      "unit": "\u03a9",
+      "status": "WARNING",
+      "description": "Charge transfer resistance"
+    },
+    {
+      "feature": "duration",
+      "shap_contribution": -1.1568978440418414,
+      "rank": 5,
+      "actual_value": 3492.907,
+      "unit": "s",
+      "status": "NORMAL",
+      "description": "Discharge duration"
+    }
+  ],
+  "interpretable_message": "Low battery risk detected. The prediction is primarily driven by re (0.04 \u03a9) and temp_max (38.17 \u00b0C). Recommended action: Continue normal operation. Monitor battery parameters.",
+  "recommended_action": "Continue normal operation. Monitor battery parameters.",
+  "row_index": 18,
+  "cell_name": "B0005",
+  "cycle_index": 23
+}

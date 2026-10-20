@@ -1,0 +1,62 @@
+{
+  "risk_level": "HIGH",
+  "risk_score": 0.577201192992604,
+  "confidence": "LOW",
+  "uncertainty_flag": true,
+  "uncertainty_info": {
+    "confidence": "LOW",
+    "model_agreement": 0.831
+  },
+  "contributing_factors": [
+    {
+      "feature": "temp_max",
+      "shap_contribution": -0.12094042959598611,
+      "rank": 1,
+      "actual_value": 39.48443326993031,
+      "unit": "\u00b0C",
+      "status": "NORMAL",
+      "description": "Maximum temperature during discharge"
+    },
+    {
+      "feature": "duration",
+      "shap_contribution": -0.09826833921200159,
+      "rank": 2,
+      "actual_value": 3149.094,
+      "unit": "s",
+      "status": "NORMAL",
+      "description": "Discharge duration"
+    },
+    {
+      "feature": "impedance_rise_pct",
+      "shap_contribution": -0.08116189891219146,
+      "rank": 3,
+      "actual_value": 16.29925164580081,
+      "unit": "%",
+      "status": "NORMAL",
+      "description": "Impedance rise percentage from initial"
+    },
+    {
+      "feature": "temp_mean",
+      "shap_contribution": 0.02869997311314561,
+      "rank": 4,
+      "actual_value": 32.5437072434024,
+      "unit": "\u00b0C",
+      "status": "NORMAL",
+      "description": "Mean temperature during discharge"
+    },
+    {
+      "feature": "rct",
+      "shap_contribution": 0.015358218643163602,
+      "rank": 5,
+      "actual_value": 0.0934909607320899,
+      "unit": "\u03a9",
+      "status": "CRITICAL",
+      "description": "Charge transfer resistance"
+    }
+  ],
+  "interpretable_message": "High battery risk detected. The prediction is primarily driven by temp_max (39.48 \u00b0C) and duration (3149.09 s). Caveat: Inter-model consensus is LOW (model-based assessment, not a validated physical diagnosis). Recommended action: Reduce charging load. Initiate safety inspection. Monitor rct continuously.",
+  "recommended_action": "Reduce charging load. Initiate safety inspection. Monitor rct continuously.",
+  "cell_name": "B0006",
+  "cycle_count": 72,
+  "case_id": "MEDIUM_231"
+}

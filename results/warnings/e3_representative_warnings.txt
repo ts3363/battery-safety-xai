@@ -1,0 +1,85 @@
+================================================================================
+REPRESENTATIVE BATTERY SAFETY WARNING EXAMPLES (SHAP + LIME EXPLAINED)
+================================================================================
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: LOW | RISK SCORE: 0.000]
+Cell: B0007 | Cycle: N/A | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Low battery risk detected. The prediction is primarily driven by temp_max (39.31 °C) and impedance_rise_pct (3.15 %). Recommended action: Continue normal operation. Monitor battery parameters.
+
+RECOMMENDED ACTION:
+  Continue normal operation. Monitor battery parameters.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. temp_max (Maximum temperature during discharge)
+     Value: 39.312 °C | Status: NORMAL | SHAP Impact: -0.0506
+  2. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 3.153 % | Status: NORMAL | SHAP Impact: -0.0485
+  3. duration (Discharge duration)
+     Value: 3321.844 s | Status: NORMAL | SHAP Impact: -0.0398
+  4. temp_mean (Mean temperature during discharge)
+     Value: 31.722 °C | Status: NORMAL | SHAP Impact: -0.0341
+  5. capacity (Discharge capacity)
+     Value: 1.812 Ah | Status: UNKNOWN | SHAP Impact: -0.0328
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+--------------------------------------------------------------------------------
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: HIGH | RISK SCORE: 0.577]
+Cell: B0006 | Cycle: N/A | Confidence: LOW | Uncertainty Flag: True
+================================================================================
+SUMMARY:
+  High battery risk detected. The prediction is primarily driven by temp_max (39.48 °C) and duration (3149.09 s). Caveat: Inter-model consensus is LOW (model-based assessment, not a validated physical diagnosis). Recommended action: Reduce charging load. Initiate safety inspection. Monitor rct continuously.
+
+RECOMMENDED ACTION:
+  Reduce charging load. Initiate safety inspection. Monitor rct continuously.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. temp_max (Maximum temperature during discharge)
+     Value: 39.484 °C | Status: NORMAL | SHAP Impact: -0.1209
+  2. duration (Discharge duration)
+     Value: 3149.094 s | Status: NORMAL | SHAP Impact: -0.0983
+  3. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 16.299 % | Status: NORMAL | SHAP Impact: -0.0812
+  4. temp_mean (Mean temperature during discharge)
+     Value: 32.544 °C | Status: NORMAL | SHAP Impact: +0.0287
+  5. rct (Charge transfer resistance)
+     Value: 0.093 Ω | Status: CRITICAL | SHAP Impact: +0.0154
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+--------------------------------------------------------------------------------
+
+================================================================================
+BATTERY SAFETY WARNING [LEVEL: CRITICAL | RISK SCORE: 1.000]
+Cell: B0006 | Cycle: N/A | Confidence: HIGH | Uncertainty Flag: False
+================================================================================
+SUMMARY:
+  Critical battery risk detected. The prediction is primarily driven by temp_mean (34.24 °C) and temp_max (41.62 °C). Recommended action: Immediately reduce load. Initiate emergency inspection per safety protocol. Do not continue charging if safety limits are exceeded.
+
+RECOMMENDED ACTION:
+  Immediately reduce load. Initiate emergency inspection per safety protocol. Do not continue charging if safety limits are exceeded.
+
+KEY CONTRIBUTING FACTORS (SHAP Impact & Engineering Status):
+  1. temp_mean (Mean temperature during discharge)
+     Value: 34.237 °C | Status: NORMAL | SHAP Impact: +0.1021
+  2. temp_max (Maximum temperature during discharge)
+     Value: 41.617 °C | Status: WARNING | SHAP Impact: +0.0945
+  3. re (Electrolyte resistance)
+     Value: 0.075 Ω | Status: WARNING | SHAP Impact: +0.0839
+  4. impedance_rise_pct (Impedance rise percentage from initial)
+     Value: 25.214 % | Status: NORMAL | SHAP Impact: +0.0591
+  5. duration (Discharge duration)
+     Value: 2946.031 s | Status: NORMAL | SHAP Impact: +0.0486
+================================================================================
+* DISCLAIMER: Model-based safety assessment; not a substitute for physical diagnostic protocols.
+================================================================================
+
+--------------------------------------------------------------------------------
+
