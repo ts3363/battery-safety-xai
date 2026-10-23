@@ -211,7 +211,6 @@ RANDOM_SEED = 42
 MODEL_PARAMS = {
     "logistic_regression": {
         "C": 1.0,
-        "penalty": "l2",
         "solver": "lbfgs",
         "max_iter": 1000,
         "random_state": RANDOM_SEED,
