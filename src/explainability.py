@@ -34,6 +34,7 @@ def compute_shap_values(
     model: Any,
     X: pd.DataFrame,
     model_name: str,
+    background: Optional[pd.DataFrame] = None,
 ) -> shap.Explanation:
     """
     Compute SHAP values for a fitted model on feature matrix X.
@@ -53,6 +54,9 @@ def compute_shap_values(
     model_name : str
         Model architecture identifier ('logistic_regression', 'decision_tree',
         'random_forest', 'xgboost').
+    background : pd.DataFrame, optional
+        Reference data for the LinearExplainer baseline (e.g. training set).
+        Defaults to X, which is degenerate when explaining a single row.
 
     Returns
     -------
@@ -81,11 +85,19 @@ def compute_shap_values(
             X_eval = X.copy()
     else:
         classifier = model
+        scaler = None
         X_eval = X.copy()
+
+    if background is None:
+        X_bg = X_eval
+    elif scaler is not None:
+        X_bg = pd.DataFrame(scaler.transform(background), columns=background.columns)
+    else:
+        X_bg = background
 
     # Select appropriate explainer based on model architecture
     if norm_name == "logistic_regression":
-        explainer = shap.LinearExplainer(classifier, X_eval)
+        explainer = shap.LinearExplainer(classifier, X_bg)
         raw_exp = explainer(X_eval)
     elif norm_name in ["decision_tree", "random_forest", "xgboost"]:
         explainer = shap.TreeExplainer(classifier)

@@ -80,11 +80,7 @@ def get_model(model_name: str) -> BaseEstimator:
         return RandomForestClassifier(**params)
 
     elif norm_name == "xgboost":
-        # Pass use_label_encoder=False as required; handle newer xgboost gracefully
-        try:
-            return XGBClassifier(**params, use_label_encoder=False)
-        except TypeError:
-            return XGBClassifier(**params)
+        return XGBClassifier(**params)
 
     else:
         raise ValueError(f"Unhandled model name: {model_name}")
